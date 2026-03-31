@@ -1,0 +1,7 @@
+{
+  "name": "AgriScan: Crop Disease Detector",
+  "description": "Identify and manage crop diseases instantly using advanced AI analysis. Upload a photo of your plant to get expert diagnosis and treatment advice.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

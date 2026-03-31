@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Cormorant Garamond", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-sage-50: #f4f7f4;
+  --color-sage-100: #e6ede6;
+  --color-sage-200: #ceddce;
+  --color-sage-300: #a9c1a9;
+  --color-sage-400: #7da07d;
+  --color-sage-500: #5d825d;
+  --color-sage-600: #4a684a;
+  --color-sage-700: #3c543c;
+  --color-sage-800: #334633;
+  --color-sage-900: #2d3c2d;
+  --color-sage-950: #182118;
+}
+
+@layer base {
+  body {
+    @apply bg-sage-50 text-sage-950 font-sans;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-serif;
+  }
+}
+
+.markdown-body {
+  @apply text-sage-800 leading-relaxed;
+}
+
+.markdown-body h1 { @apply text-3xl font-bold mb-4 mt-6 text-sage-900; }
+.markdown-body h2 { @apply text-2xl font-semibold mb-3 mt-5 text-sage-800; }
+.markdown-body h3 { @apply text-xl font-medium mb-2 mt-4 text-sage-700; }
+.markdown-body p { @apply mb-4; }
+.markdown-body ul { @apply list-disc pl-6 mb-4; }
+.markdown-body ol { @apply list-decimal pl-6 mb-4; }
+.markdown-body li { @apply mb-1; }
+.markdown-body strong { @apply font-bold text-sage-950; }
