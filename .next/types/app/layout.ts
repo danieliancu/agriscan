@@ -1,4 +1,4 @@
-// File: C:\_work\plantCare\app\layout.tsx
+// File: C:\_work\agriscan\app\layout.tsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

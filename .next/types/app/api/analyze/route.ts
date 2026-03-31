@@ -1,4 +1,4 @@
-// File: C:\_work\plantCare\app\api\analyze\route.ts
+// File: C:\_work\agriscan\app\api\analyze\route.ts
 import * as entry from '../../../../../app/api/analyze/route.js'
 import type { NextRequest } from 'next/server.js'
 
